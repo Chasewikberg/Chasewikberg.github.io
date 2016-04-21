@@ -4,7 +4,10 @@ DesolateStorm.Boot = function(game) {};
 
 DesolateStorm.Boot.prototype = {
 	
-	preload: function() {},
+	preload: function() {
+        this.state.start ('Preloader')
+        
+    },
 
 	create: function() {
 		this.input.maxPointers = 1;
