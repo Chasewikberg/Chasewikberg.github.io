@@ -11,7 +11,8 @@ DesolateStorm.StartMenu.prototype = {
 		startBG.inputEnabled = true;
 		startBG.events.onInputDown.addOnce(this.startGame, this);
 		
-		startPrompt = this.add.bitmapText(this.world.centerX - 155, this.world.centerY + 180, 'scarytext', 'Face Your Fears!', 24);
+		startPrompt = this.add.bitmapText(this.world.centerX - 310, this.world.centerY + 180, 'scarytext', 'Face Your Fears!', 24);
+        startPrompt = this.add.bitmapText(this.world.centerX - 310, this.world.centerY + 200, 'scarytext', 'Click to ', 24);
 	},
 
 	startGame: function (pointer) {
