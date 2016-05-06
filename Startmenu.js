@@ -1,8 +1,8 @@
-DesolateStorm.StartMenu = function (game) {
+DesolateStorm.Startmenu = function (game) {
     this.startBG;
     this.startPrompt;
 };
-DesolateStorm.StartMenu.prototype = {
+DesolateStorm.Startmenu.prototype = {
 	
 	create: function () {
         this.thundermusic = this.add.audio('thunderSound');

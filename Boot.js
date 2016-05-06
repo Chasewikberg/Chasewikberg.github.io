@@ -5,7 +5,7 @@ DesolateStorm.Boot = function(game) {};
 DesolateStorm.Boot.prototype = {
 	
 	preload: function() {
-        this.state.start ('Preloader')
+        
         
     },
 
@@ -19,9 +19,9 @@ DesolateStorm.Boot.prototype = {
 		this.scale.pageAlignVertically = true;
 		this.stage.forcePortrait = true;  
 		this.scale.setScreenSize(true); 
-
 		this.input.addPointer();
 		this.stage.backgroundColor = '#202123';
+        this.state.start ('Preloader')
 	}
 	
 };

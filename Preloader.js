@@ -7,6 +7,7 @@ DesolateStorm.Preloader = function(game) {
 DesolateStorm.Preloader.prototype = {
 	
 	preload: function () {
+        this.load.image('bathroom','bathroom.png')
         this.load.atlasXML('adultBedroom','bedroom_sprite.png','bedroomsprite.xml');
         this.load.atlasXML('entrance','chandelier_sprite.png','chandeliersprite.xml') ;
         this.load.audio('metalclang', 'clinksound.mp3');
@@ -30,7 +31,7 @@ DesolateStorm.Preloader.prototype = {
 	},
 
 	update: function () {
-	   	this.state.start('Startmenu')
         this.ready = true;
+	   	this.state.start('Startmenu')
 	}
 };
