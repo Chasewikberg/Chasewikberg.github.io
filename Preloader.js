@@ -30,6 +30,7 @@ DesolateStorm.Preloader.prototype = {
 	},
 
 	update: function () {
-	   	this.ready = true;
+	   	this.state.start('Startmenu')
+        this.ready = true;
 	}
 };
