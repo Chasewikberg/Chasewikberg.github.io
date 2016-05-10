@@ -9,9 +9,14 @@ DesolateStorm.Preloader.prototype = {
 	preload: function () {
         this.load.image('bathroom','bathroom.png')
         this.load.atlasXML('adultBedroom','bedroom_sprite.png','bedroomsprite.xml');
-        this.load.atlasXML('bloodyAdultBedroom','bloody_bedroom_sprite.png','bloody_bedroom_sprite.xml')
-        this.load.image('bloodyHallway1','bloody hallway 1.png');
-        this.load.image('bloodyHallway2','bloody hallway 2');
+        this.load.atlasXML('bloodyAdultBedroom','chandelier_sprite.png','chandeliersprite.xml') ;
+        this.load.image('bloodyHallway1','bloody_hallway1.png');
+        this.load.image('bloodyHallway2','bloody_hallway2.png');
+        this.load.atlasXML('bloodyKidsBedroom','bloody_kids_bedroom_spritesheet.png','bloody_kids_bedroom_spritesheet.xml')
+        this.load.image('bloodyBathroom','bloodyBathroom.png')
+        this.load.atlasXML('bloodyEntrance','BloodyChandelierSpriteSheet.png','BloodyChandelierSpriteSheet.xml')
+        this.load.atlasXML('bloodyKitchen','bloodyKitchen.png','bloodyKitchen.xml')
+        this.load.atlasXML('bloodyLivingRoom','Bloodylivingroom.png','Bloodylivingroom.xml') ;
         this.load.atlasXML('entrance','chandelier_sprite.png','chandeliersprite.xml') ;
         this.load.audio('metalclang', 'clinksound.mp3');
         this.load.image('deadGuy','Dead_guy.png');
