@@ -29,7 +29,7 @@ DesolateStorm.Preloader.prototype = {
         this.load.atlasXML('livingroom','livingroom_sprite.png','livingroomsprite.xml');
         this.load.image('policeRadio','Police_Radio.png');
         this.load.atlasXML('policeOfficer','Policeofficersprite.png','Policeofficersprite.xml');
-        this.load.bitmapFont('scaryfont','', '');
+        this.load.bitmapFont('scaryFont','Pixel_Font.png', 'font/Pixel_Font.fnt');
         this.load.image('speechBubble','Speech_bubble.png');
         this.load.audio('thunderSound','thundersound.mp3');
         this.load.image('titleScreen','Title_screen.png');
