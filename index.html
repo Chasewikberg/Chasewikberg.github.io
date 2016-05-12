@@ -7,6 +7,7 @@
     <script src="Boot.js"></script>
     <script src="Preloader.js"></script>
     <script src="Startmenu.js"></script>
+    <script src="Game.js"></script>
 	<style>
 		body {
 			padding: 0;
@@ -19,10 +20,11 @@
     <div id = 'gameContainer'></div>
        <script type="text/javascript"> 
            window.onload = function() {
-               var game = new Phaser.Game(1080,960,Phaser.AUTO,'gameContainer'); 
+               var game = new Phaser.Game(1020,720,Phaser.AUTO,'gameContainer'); 
                game.state.add('Boot',DesolateStorm.Boot);
                game.state.add ('Preloader',DesolateStorm.Preloader);
                game.state.add('Startmenu',DesolateStorm.Startmenu);
+               game.state.add('Game',DesolateStorm.Game);
                game.state.start('Boot');
            }
     </script>
