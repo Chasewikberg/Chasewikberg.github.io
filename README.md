@@ -1,5 +1,6 @@
 # The-Desolate-Storm
 ### A student made high school level game. Its amazing and you should play it when it's ready.
+##[Click to Play](index.html)
 
 ##Our Creaters:
 
