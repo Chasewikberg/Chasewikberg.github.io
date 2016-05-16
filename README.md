@@ -1,6 +1,6 @@
 # The-Desolate-Storm
 ### A student made high school level game. Its amazing and you should play it when it's ready.
-##[Click to Play](Chasewikberg.github.io)
+##[Click to Play](http://Chasewikberg.github.io)
 
 ##Our Creaters:
 
