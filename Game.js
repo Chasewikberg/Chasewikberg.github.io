@@ -10,7 +10,7 @@ DesolateStorm.Game.prototype = {
     },
     openingSequence () {
         this.stage.backgroundColor = '#000000';
-        this.add.bitmapText(this.world.centerX - 155, this.world.centerY + 180, 'scaryFont', '415 PR at 536 Fulton Street. This was the call that changed everything.', 24);
+        this.add.bitmapText(this.world.centerX - 155, this.world.centerY + 180, 'scaryFont', '415 PR at V III VI Fulton Street. This was the call that changed everything.', 24);
         
         this.buildWorld
     },
