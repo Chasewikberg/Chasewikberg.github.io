@@ -1,4 +1,4 @@
-DesolateStorm.Game = function (game) {
+Desolate Storm.Game = function (game) {
     
     
 };
