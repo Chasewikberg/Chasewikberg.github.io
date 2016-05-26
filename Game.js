@@ -15,11 +15,11 @@ DesolateStorm.Game.prototype = {
         this.startgame();
     },
     startgame (pointer){
-        this.remove.bitmapText(bitmaptext, true)
+        //this.remove.bitmapText(bitmaptext, true)
         this.buildWorld();
     },
     
-    buildWorld: function () {
+    buildWorld: function () { 
 
     },
     
