@@ -4,11 +4,11 @@ this.cursors;
     
 };
 
-//var character ;
-//var cursors ;
 
 DesolateStorm.Game.prototype = {
     create: function () { 
+        var character ;
+        var cursors ;
         this.cursors = this.input.keyboard.createCursorKeys();
         //this.character = this.add.sprite(865, 375, 'policeOfficer');
 
@@ -40,7 +40,7 @@ DesolateStorm.Game.prototype = {
     },
     firstRoom: function(){
         
-        this.character = this.add.sprite(865, 375, 'policeOfficer');
+        this.character = this.add.sprite(950, 350, 'policeOfficer');
         
             
         this.character.anchor.setTo(0.5,0.5);
