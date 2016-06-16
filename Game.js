@@ -46,6 +46,7 @@ DesolateStorm.Game.prototype = {
         this.character.anchor.setTo(0.5,0.5);
         this.character.scale.setTo(2.5,2.5);
         this.character.animations.add('walk', [1,2,3,4,5,6,7,8], 8, true);
+        this.character.animations.play('walk');
     },
     movement: function(){
          //character.body.velocity.setZeroVelocity();
